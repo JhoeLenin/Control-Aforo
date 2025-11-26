@@ -1,0 +1,31 @@
+# --- Entornos Virtuales (¡Lo más importante!) ---
+venv/
+env/
+.venv/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+
+# --- IDEs y Editores ---
+.vscode/
+.idea/
+*.swp
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Logs y Bases de datos locales (opcional) ---
+*.log
+*.sqlite3
+
+# --- Arduino (Opcional, por si compilas y quedan temporales) ---
+*.hex
+*.elf
